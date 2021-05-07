@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except
+!dist/**/*.js
+!dist/**/*.js.map
+!dist/**/*.d.ts
