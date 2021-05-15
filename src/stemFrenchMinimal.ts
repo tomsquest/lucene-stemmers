@@ -33,17 +33,11 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-/**
- * Minimal Stemmer for French.
- *
- * <p>This stemmer implements the following algorithm: <i>A Stemming procedure and stopword list for
- * general French corpora.</i> Jacques Savoy.
- *
- * @see https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java
- */
-type Word = string | null | undefined;
+import { isLetter } from "./isLetter";
 
-export const stemFrenchMinimal = (word: Word): Word => {
+export const stemFrenchMinimal = (
+  word: string | null | undefined
+): string | null | undefined => {
   if (!word) return word;
 
   let length = word.length;
