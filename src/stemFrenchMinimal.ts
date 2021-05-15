@@ -58,5 +58,3 @@ export const stemFrenchMinimal = (
     length--;
   return word.slice(0, length);
 };
-
-const isLetter = (char: string): boolean => /[a-z]/i.test(char);
