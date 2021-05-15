@@ -47,5 +47,6 @@ These stemmers are available:
 ## TODO
 
 - [ ] Add more stemmers
+- [ ] Publish browser version
 - [ ] Pre-commit hooks
 - [ ] CI
