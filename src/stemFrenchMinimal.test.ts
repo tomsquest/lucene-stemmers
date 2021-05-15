@@ -45,10 +45,9 @@ test("vocabulary", () => {
     encoding: "utf8",
   })
     .split(/\n/)
+    .filter(Boolean)
     .forEach((line) => {
-      if (line) {
-        const [actual, expected] = line.split("\t");
-        expect(stemFrenchMinimal(actual)).toEqual(expected); // 10:00pm
-      }
+      const [actual, expected] = line.split("\t");
+      expect(stemFrenchMinimal(actual)).toEqual(expected);
     });
 });
