@@ -1,6 +1,6 @@
 {
   "name": "lucene-stemmers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Stem words like with Lucene",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
