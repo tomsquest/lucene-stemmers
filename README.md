@@ -32,7 +32,7 @@ const stemmed = stemFrenchMinimal("chevaux");
 // stemmed === "cheval"
 ```
 
-## List of stemmers
+## Stemmers implemented
 
 These stemmers are available:
 
@@ -40,7 +40,12 @@ These stemmers are available:
     - [x] Minimal
         - Function: `stemFrenchMinimal`
         - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java)
-
+    - [x] Light
+        - Function: `stemFrenchLight`
+        - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java)
+    
 ## TODO
 
-- [ ] Port other stemmers from Lucene 
+- [ ] Add more stemmers
+- [ ] Pre-commit hooks
+- [ ] CI
