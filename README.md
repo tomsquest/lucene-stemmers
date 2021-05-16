@@ -1,4 +1,16 @@
-# Lucene Stemmers
+# Lucene Stemmers in JavaScript
+
+<div align="center">
+
+<img src="doc/logo.png" title="Lucene Stemmers" alt="Lucene Stemmers Logo" width="600">
+
+</div>
+
+<div align="left">
+
+[![Version](https://img.shields.io/npm/v/qqd.svg?style=for-the-badge)](https://www.npmjs.com/package/lucene-stemmers)
+
+</div>
 
 > **`Lucene Stemmers`** is a port of Lucene's stemmers in JavaScript.
 
