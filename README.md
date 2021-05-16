@@ -8,7 +8,7 @@
 
 <div align="left">
 
-[![Version](https://img.shields.io/npm/v/qqd.svg?style=for-the-badge)](https://www.npmjs.com/package/lucene-stemmers)
+[![Version](https://img.shields.io/npm/v/lucene-stemmers.svg?style=for-the-badge)](https://www.npmjs.com/package/lucene-stemmers)
 
 </div>
 
