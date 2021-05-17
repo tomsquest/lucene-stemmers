@@ -5,9 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "clean": "rimraf dist",
     "build": "tsc",
-    "prepublishOnly": "npm run clean && npm run build",
+    "clean": "rimraf dist",
+    "pre-commit": "npm run prettier:fix && npm test",
+    "prepare": "husky install",
     "prettier:fix": "prettier --write --no-config '*.json' 'src/**/*.{ts,json}'",
     "release": "np",
     "test": "jest",
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "@types/jest": "26.0.23",
+    "husky": "6.0.0",
     "jest": "26.6.3",
     "np": "7.5.0",
     "prettier": "2.2.1",
