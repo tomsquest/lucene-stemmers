@@ -55,10 +55,15 @@ These stemmers are available:
     - [x] Light
         - Function: `stemFrenchLight`
         - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java)
-    
+- [x] Italian
+    - [x] Light
+        - Function: `stemItalianLight`
+        - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/it/ItalianLightStemFilter.java)
+
+ 
 ## TODO
 
+- [ ] Add why
 - [ ] Add more stemmers
 - [ ] Publish browser version
-- [ ] Pre-commit hooks
 - [ ] CI

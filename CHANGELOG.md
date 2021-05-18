@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [1.2.0] - 2021.05.18
+
+### Added
+- Add [Lucene Italian Light stemmer](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/it/ItalianLightStemFilter.java)
+
+
+
 ## [1.1.0] - 2021.05.15
 
 ### Added
