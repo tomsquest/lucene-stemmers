@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="doc/logo.png" title="Lucene Stemmers" alt="Lucene Stemmers Logo" width="600">
+<img src="doc/logo.png" title="Lucene Stemmers" alt="Lucene Stemmers Logo">
 
 </div>
 
