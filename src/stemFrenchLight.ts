@@ -52,11 +52,11 @@ export const stemFrenchLight = (
   if (!s) return s;
 
   const chars = s.split("");
-  const len = luceneStem(chars, chars.length);
+  const len = stem(chars, chars.length);
   return chars.slice(0, len).join("");
 };
 
-const luceneStem = (s: string[], len: number): number => {
+const stem = (s: string[], len: number): number => {
   if (len > 5 && s[len - 1] == "x") {
     if (s[len - 3] == "a" && s[len - 2] == "u" && s[len - 4] != "e") {
       s[len - 2] = "l";
