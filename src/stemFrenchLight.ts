@@ -36,6 +36,14 @@
 import { isLetter } from "./isLetter";
 import { endsWith } from "./endsWith";
 
+/**
+ * Light Stemmer for French.
+ *
+ * <p>This stemmer implements the "UniNE" algorithm in: <i>Light Stemming Approaches for the French,
+ * Portuguese, German and Hungarian Languages</i> Jacques Savoy
+ *
+ * This is the port of org.apache.lucene.analysis.fr.FrenchLightStemmer
+ */
 export const stemFrenchLight = (
   s: string | null | undefined
 ): string | null | undefined => {

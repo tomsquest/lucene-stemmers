@@ -35,6 +35,14 @@
 
 import { isLetter } from "./isLetter";
 
+/**
+ * Minimal Stemmer for French.
+ *
+ * <p>This stemmer implements the following algorithm: <i>A Stemming procedure and stopword list for
+ * general French corpora.</i> Jacques Savoy.
+ *
+ * This is the port of org.apache.lucene.analysis.fr.FrenchMinimalStemmer
+ */
 export const stemFrenchMinimal = (
   word: string | null | undefined
 ): string | null | undefined => {
