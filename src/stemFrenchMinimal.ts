@@ -42,6 +42,8 @@ import { isLetter } from "./isLetter";
  * general French corpora.</i> Jacques Savoy.
  *
  * This is the port of org.apache.lucene.analysis.fr.FrenchMinimalStemmer
+ *
+ * @see https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java
  */
 export const stemFrenchMinimal = (
   word: string | null | undefined

@@ -43,6 +43,8 @@ import { endsWith } from "./endsWith";
  * Portuguese, German and Hungarian Languages</i> Jacques Savoy
  *
  * This is the port of org.apache.lucene.analysis.fr.FrenchLightStemmer
+ *
+ * @see https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java
  */
 export const stemFrenchLight = (
   s: string | null | undefined
