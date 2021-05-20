@@ -26,16 +26,16 @@ npm install lucene-stemmers
 
 ## Usage
 
-In plain **JavaScript**: 
+In plain **JavaScript**:
 
 ```js
-const { stemFrenchMinimal } = require("lucene-stemmers")
+const { stemFrenchMinimal } = require("lucene-stemmers");
 
 const stemmed = stemFrenchMinimal("chevaux");
 // stemmed === "cheval"
 ```
 
-In **Typescript**: 
+In **Typescript**:
 
 ```ts
 import { stemFrenchMinimal } from "lucene-stemmers";
@@ -49,18 +49,17 @@ const stemmed = stemFrenchMinimal("chevaux");
 These stemmers are available:
 
 - [x] French
-    - [x] Minimal
-        - Function: `stemFrenchMinimal`
-        - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java)
-    - [x] Light
-        - Function: `stemFrenchLight`
-        - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java)
+  - [x] Minimal
+    - Function: `stemFrenchMinimal`
+    - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java)
+  - [x] Light
+    - Function: `stemFrenchLight`
+    - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java)
 - [x] Italian
-    - [x] Light
-        - Function: `stemItalianLight`
-        - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/it/ItalianLightStemFilter.java)
+  - [x] Light
+    - Function: `stemItalianLight`
+    - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/it/ItalianLightStemFilter.java)
 
- 
 ## TODO
 
 - [ ] Add why

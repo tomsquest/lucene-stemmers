@@ -7,9 +7,12 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
-    "precommit": "npm run prettier:fix && npm test",
+    "check": "npm run clean && npm run build && npm run prettier && npm test",
+    "precommit": "npm run build && npm run prettier:fix && npm test",
     "prepare": "husky install",
-    "prettier:fix": "prettier --write --no-config '*.json' 'src/**/*.{ts,json}'",
+    "prepublishOnly": "npm run check",
+    "prettier": "prettier --check . '!dist/**'",
+    "prettier:fix": "prettier --write . '!dist/**'",
     "release": "np",
     "test": "jest",
     "test:watch": "jest --watch"
