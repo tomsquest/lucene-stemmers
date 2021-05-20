@@ -9,6 +9,7 @@
 <div align="left">
 
 [![Version](https://img.shields.io/npm/v/lucene-stemmers.svg?style=for-the-badge)](https://www.npmjs.com/package/lucene-stemmers)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tomsquest/lucene-stemmers/check?style=for-the-badge)
 
 </div>
 
