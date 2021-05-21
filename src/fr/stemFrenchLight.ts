@@ -33,8 +33,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-import { isLetter } from "./isLetter";
-import { endsWith } from "./endsWith";
+import { isLetter } from "../stemming/isLetter";
+import { endsWith } from "../stemming/endsWith";
 
 /**
  * Light Stemmer for French.

@@ -11,7 +11,7 @@ test("empty", () => {
 });
 
 test("vocabulary", () => {
-  readFileSync(join(__dirname, "..", "data", "itlight.txt"), {
+  readFileSync(join(__dirname, "..", "..", "data", "itlight.txt"), {
     encoding: "utf8",
   })
     .split(/\n/)

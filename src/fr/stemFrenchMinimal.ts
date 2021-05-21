@@ -33,7 +33,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-import { isLetter } from "./isLetter";
+import { isLetter } from "../stemming/isLetter";
 
 /**
  * Minimal Stemmer for French.

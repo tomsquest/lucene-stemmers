@@ -41,7 +41,7 @@ test("interge with last characters equal", () => {
 });
 
 test("vocabulary", () => {
-  readFileSync(join(__dirname, "..", "data", "frminimal.txt"), {
+  readFileSync(join(__dirname, "..", "..", "data", "frminimal.txt"), {
     encoding: "utf8",
   })
     .split(/\n/)

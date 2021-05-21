@@ -140,7 +140,7 @@ test("examples", () => {
 });
 
 test("vocabulary", () => {
-  readFileSync(join(__dirname, "..", "data", "frlight.txt"), {
+  readFileSync(join(__dirname, "..", "..", "data", "frlight.txt"), {
     encoding: "utf8",
   })
     .split(/\n/)

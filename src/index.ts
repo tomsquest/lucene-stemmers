@@ -1,4 +1,5 @@
-import { stemFrenchMinimal } from "./stemFrenchMinimal";
-import { stemFrenchLight } from "./stemFrenchLight";
+import { stemFrenchMinimal } from "./fr/stemFrenchMinimal";
+import { stemFrenchLight } from "./fr/stemFrenchLight";
+import { stemItalianLight } from "./it/stemItalianLight";
 
-export { stemFrenchMinimal, stemFrenchLight };
+export { stemFrenchMinimal, stemFrenchLight, stemItalianLight };
