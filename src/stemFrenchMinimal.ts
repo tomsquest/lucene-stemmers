@@ -46,25 +46,27 @@ import { isLetter } from "./isLetter";
  * @see https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java
  */
 export const stemFrenchMinimal = (
-  word: string | null | undefined
+  s: string | null | undefined
 ): string | null | undefined => {
-  if (!word) return word;
+  if (!s) return s;
 
-  let length = word.length;
-  if (length < 6) return word;
+  const chars = s.split("");
+  const len = stem(chars, chars.length);
+  return chars.slice(0, len).join("");
+};
 
-  if (word[length - 1] == "x") {
-    if (word[length - 3] == "a" && word[length - 2] == "u") {
-      return `${word.slice(0, length - 2)}l`;
-    }
-    return word.slice(0, length - 1);
+const stem = (s: string[], len: number): number => {
+  if (len < 6) return len;
+
+  if (s[len - 1] == "x") {
+    if (s[len - 3] == "a" && s[len - 2] == "u") s[len - 2] = "l";
+    return len - 1;
   }
 
-  if (word[length - 1] == "s") length--;
-  if (word[length - 1] == "r") length--;
-  if (word[length - 1] == "e") length--;
-  if (word[length - 1] == "é") length--;
-  if (word[length - 1] == word[length - 2] && isLetter(word[length - 1]))
-    length--;
-  return word.slice(0, length);
+  if (s[len - 1] == "s") len--;
+  if (s[len - 1] == "r") len--;
+  if (s[len - 1] == "e") len--;
+  if (s[len - 1] == "é") len--;
+  if (s[len - 1] == s[len - 2] && isLetter(s[len - 1])) len--;
+  return len;
 };
