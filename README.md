@@ -15,6 +15,18 @@
 
 > **`Lucene Stemmers`** is a port of Lucene's stemmers in JavaScript.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of contents
+
+- [Changelog](#changelog)
+- [Install](#install)
+- [Usage](#usage)
+- [Stemmers implemented](#stemmers-implemented)
+- [TODO](#todo)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Changelog
 
 > See [CHANGELOG.md](CHANGELOG.md)
