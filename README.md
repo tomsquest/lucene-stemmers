@@ -9,7 +9,7 @@
 <div align="left">
 
 [![Version](https://img.shields.io/npm/v/lucene-stemmers.svg?style=for-the-badge)](https://www.npmjs.com/package/lucene-stemmers)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tomsquest/lucene-stemmers/check?style=for-the-badge)](https://github.com/tomsquest/lucene-stemmers/actions/workflows/check.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/tomsquest/lucene-stemmers/check.yml?style=for-the-badge)](https://github.com/tomsquest/lucene-stemmers/actions/workflows/check.yml)
 
 </div>
 
@@ -65,14 +65,14 @@ These stemmers are available:
 - [x] French
   - [x] Minimal
     - Function: `stemFrenchMinimal`
-    - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java)
+    - [Lucene source code](https://github.com/apache/lucene/blob/main/lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchMinimalStemmer.java)
   - [x] Light
     - Function: `stemFrenchLight`
-    - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java)
+    - [Lucene source code](https://github.com/apache/lucene/blob/main/lucene/analysis/common/src/java/org/apache/lucene/analysis/fr/FrenchLightStemmer.java)
 - [x] Italian
   - [x] Light
     - Function: `stemItalianLight`
-    - [Lucene source code](https://gitbox.apache.org/repos/asf?p=lucene.git;a=blob;f=lucene/analysis/common/src/java/org/apache/lucene/analysis/it/ItalianLightStemFilter.java)
+    - [Lucene source code](https://github.com/apache/lucene/blob/main/lucene/analysis/common/src/java/org/apache/lucene/analysis/it/ItalianLightStemFilter.java)
 
 ## TODO
 
